@@ -2,12 +2,9 @@ package com.everis.formacion.domain;
 
 import java.io.Serializable;
 import javax.persistence.*;
-import lombok.*;
 
 @Entity
 @Table(name = "domicilio")
-@NoArgsConstructor @Data
-
 public class Domicilio implements Serializable{
 
   private static final long serialVersionUID = 1L;
@@ -24,9 +21,51 @@ public class Domicilio implements Serializable{
     
     private String pais;
 
-    public Domicilio(Integer idDomicilio){
+    public Domicilio(){
+        
+    }
+    
+      public Domicilio(Integer idDomicilio){
         this.idDomicilio = idDomicilio;
     }
+
+    public Integer getIdDomicilio() {
+        return idDomicilio;
+    }
+
+    public void setIdDomicilio(Integer idDomicilio) {
+        this.idDomicilio = idDomicilio;
+    }
+
+    public String getCalle() {
+        return calle;
+    }
+
+    public void setCalle(String calle) {
+        this.calle = calle;
+    }
+
+    public String getNoCalle() {
+        return noCalle;
+    }
+
+    public void setNoCalle(String noCalle) {
+        this.noCalle = noCalle;
+    }
+
+    public String getPais() {
+        return pais;
+    }
+
+    public void setPais(String pais) {
+        this.pais = pais;
+    }
+
+    @Override
+    public String toString() {
+        return "Domicilio{" + "idDomicilio=" + idDomicilio + ", calle=" + calle + ", noCalle=" + noCalle + ", pais=" + pais + '}';
+    }
+  
    
     
 }

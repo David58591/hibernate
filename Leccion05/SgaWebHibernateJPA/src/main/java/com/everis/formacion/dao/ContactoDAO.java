@@ -1,6 +1,6 @@
 package com.everis.formacion.dao;
 
-import static com.everis.formacion.dao.GenericDAO.em;
+import com.everis.formacion.dao.GenericDAO;
 import com.everis.formacion.domain.Contacto;
 import java.util.List;
 import javax.persistence.Query;
