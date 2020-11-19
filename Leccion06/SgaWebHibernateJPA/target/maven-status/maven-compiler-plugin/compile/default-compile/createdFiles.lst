@@ -1,0 +1,17 @@
+com\everis\formacion\domain\Contacto.class
+com\everis\formacion\test\ciclovida\Estado3ModificarObjetoPersistente.class
+com\everis\formacion\test\ciclovida\Estado4EliminarObjeto.class
+com\everis\formacion\domain\Curso.class
+com\everis\formacion\domain\Asignacion.class
+com\everis\formacion\dao\CursoDAO.class
+com\everis\formacion\test\ciclovida\Estado2RecuperarObjetoPersistente.class
+com\everis\formacion\dao\GenericDAO.class
+com\everis\formacion\domain\Alumno.class
+com\everis\formacion\dao\DomicilioDAO.class
+com\everis\formacion\test\cascade\PersistenciaCascadaTest.class
+com\everis\formacion\domain\Domicilio.class
+com\everis\formacion\dao\AlumnoDAO.class
+com\everis\formacion\dao\AsignacionDAO.class
+com\everis\formacion\dao\ContactoDAO.class
+com\everis\formacion\test\ciclovida\Estado1Persistido.class
+com\everis\formacion\test\TestDAOs.class
